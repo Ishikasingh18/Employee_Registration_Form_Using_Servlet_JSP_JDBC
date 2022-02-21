@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body  bgcolor="pink">
+
+<div align="center">
+ 
+  <h1 style=color:brown> Employee Registration Form </h1>
+ 
+  
+  <form action="<%= request.getContextPath() %>/register" method="post">
+
+<br>
+<br>
+
+   <table style="with: 80%">
+    <tr>
+     <td>First Name</td>
+     <td><input type="text" name="firstName" /></td>
+    </tr>
+    <tr>
+     <td>Last Name</td>
+     <td><input type="text" name="lastName" /></td>
+    </tr>
+    <tr>
+     <td>UserName</td>
+     <td><input type="text" name="username" /></td>
+    </tr>
+    <tr>
+     <td>Password</td>
+     <td><input type="password" name="password" /></td>
+    </tr>
+    <tr>
+     <td>Address</td>
+     <td><input type="text" name="address" /></td>
+    </tr>
+    <tr>
+     <td>Contact No</td>
+     <td><input type="text" name="contact" /></td>
+    </tr>
+   </table>
+   <input type="submit" value="Submit" />
+  </form>
+ </div>
+ 
+ <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<p style=color:brown align="center" > Created By : Ishika Singh &#128525; &#128525; &#128525;</p>
+ 
+</body>
+</html>
