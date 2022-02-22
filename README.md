@@ -1,4 +1,4 @@
-<h1 align="center">Employee_Registration_Form_Using_Servlet_JSP_JDBC</h1>
+<h1 align="center">Employee Registration Form </h1>
 <p style=color:blue align="center"> Created By : Ishika Singh &#128525; &#128525; &#128525;</p>
 <br>
 <p> This repositry consist of simple web-based module written in Java using Servlet , JSP, JDBC,MySQL </p>
